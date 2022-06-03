@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bikeshop"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/get_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/bike_turquoise_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/consult_products"
+        android:textColor="@color/gray1"
+        app:layout_constraintBottom_toTopOf="@+id/post_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/post_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/bike_turquoise_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_product"
+        android:textColor="@color/gray1"
+        app:layout_constraintBottom_toTopOf="@+id/update_product"
+        app:layout_constraintEnd_toEndOf="@+id/get_products"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/get_products"
+        app:layout_constraintTop_toBottomOf="@+id/get_products"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/update_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/bike_turquoise_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/update_product"
+        android:textColor="@color/gray1"
+        app:layout_constraintBottom_toTopOf="@+id/delete_product"
+        app:layout_constraintEnd_toEndOf="@+id/post_product"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/post_product"
+        app:layout_constraintTop_toBottomOf="@+id/post_product"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/delete_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/bike_turquoise_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/delete_product"
+        android:textColor="@color/gray1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/update_product"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/update_product"
+        app:layout_constraintTop_toBottomOf="@+id/update_product"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BikeShopApp</string>
+    <string name="consult_products">Consult products</string>
+    <string name="add_product">Add product</string>
+    <string name="update_product">Update product</string>
+    <string name="delete_product">Delete product</string>
+    <string name="one_int">1</string>
+    <string name="id">Id</string>
+    <string name="name">Name</string>
+    <string name="brand">Brand</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="add">Add!</string>
+    <string name="select_a_product">Select a product from below</string>
+    <string name="select_a_product_update">Select a product to update</string>
+</resources>

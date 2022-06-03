@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="gray1">#E3E0E0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bike_turquoise_300">#09FFEC</color>
+    <color name="bike_turquoise_500">#23DAD3</color>
+    <color name="bike_turquoise_700">#0A918C</color>
+    <color name="bike_turquoise_900">#026A66</color>
+    <color name="bike_blue_300">#3175EC</color>
+    <color name="bike_blue_500">#0859E4</color>
+    <color name="bike_blue_700">#1046A3</color>
+    <color name="blue_tab_icon_active">#FF1046A3</color>
+    <color name="blue_tab_icon_inactive">#FF0A918C</color>
+    <color name="table_red">#F44336</color>
+    <color name="add_green">#59ED32</color>
+    <color name="add_green2">#0B9F8E</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".product.ProductPostForm">
+
+
+
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Name of new product"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/add_green"
+        android:textColorHint="@color/add_green" />
+
+    <EditText
+        android:id="@+id/product_brand"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Brand of the new product"
+        android:hint="@string/brand"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/add_green"
+        android:textColorHint="@color/add_green" />
+
+    <EditText
+        android:id="@+id/product_quantity"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Quantity of the new product"
+        android:hint="@string/quantity"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/add_green"
+        android:textColorHint="@color/add_green" />
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Price of the new product"
+        android:hint="@string/price"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/add_green"
+        android:textColorHint="@color/add_green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/add_product_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:background="@color/add_green"
+            />
+    </LinearLayout>
+
+</LinearLayout>
